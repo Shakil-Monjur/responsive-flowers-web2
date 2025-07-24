@@ -22,6 +22,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1rem;
 
 }
 
@@ -53,6 +54,13 @@
 
 header {
     margin-top: 30px;
+}
+
+.header-logo {
+    max-width: 8.44rem;
+}
+.header-logo img{
+    width: 100%;
 }
 
 .logo-navigation {
@@ -105,9 +113,8 @@ header {
 
     .logo-navigation {
         justify-content: space-between;
-        margin-left: 16px;
-        margin-right: 16px;
-        margin-top: 13px;
+        max-width: 90%;
+        margin: auto;
     }
 
 }
