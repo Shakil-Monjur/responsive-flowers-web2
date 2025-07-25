@@ -328,6 +328,50 @@ header {
 }
 
 
+
+/* join section design */
+.join {
+    max-width: 1140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(assets/news-letter-bg.png);
+    height: 533px;
+    margin: auto;
+
+}
+
+.join div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 23px;
+}
+
+.join h1 {
+    font-size: 3.125rem;
+    font-weight: bold;
+    color: white;
+}
+
+.join input {
+    background-color: white;
+    border: none;
+    padding: 14.2px;
+    width: 644px;
+}
+
+.join button {
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    padding: 13px 25px;
+    background-color: #E95A08;
+    border: none;
+}
+
+
 /* Footer Section Style */
 
 
@@ -523,10 +567,11 @@ header {
 
 
 
-.deals {
-    margin-top: 126px;
-    margin-bottom: 51px;
-}
+    .deals {
+        margin-top: 126px;
+        margin-bottom: 51px;
+    }
+
     /* product price off sections responsive design */
     .off-section {
         max-width: 90%;
@@ -534,18 +579,19 @@ header {
         display: flex;
         flex-direction: column;
         margin-bottom: 120px;
-        
+    }
 
     .off {
+        width:518.4px;
         max-width: 100%;
     }
 
     .off-1 {
         background-image: url(assets/deal-bloom.png);
         background-repeat: no-repeat;
-        width: 518.4px;
-        height: 265px;
-        background-size: cover;
+        width: 100%;
+        /* min-height: 200px; */
+        background-size: 100%;
         background-position: center;
         margin-bottom: 20px;
     }
@@ -553,19 +599,25 @@ header {
     .off-2 {
         background-image: url(assets/deal-ana.png);
         background-repeat: no-repeat;
-        width: 518.4px;
-        height: 265px;
-        background-size: cover;
+        width: 100%;
+        /* min-height: 200px; */
+        background-size: 100%;
         background-position: center;
         border-radius: 10px;
+    }
+    .off-off {
+        width:518.4px;
+        max-width: 100%;
     }
 
     .off-3 {
         margin-top: 20px;
         background-image: url(assets/deal-zabo.png);
         background-repeat: no-repeat;
-        width: 518.4px;
-        height: 265px;
+        /* width: 518.4px;
+        height: 265px; */
+        width: 100%;
+        height: 205px;
         background-size: cover;
         background-position: center;
         border-radius: 10px;
@@ -586,6 +638,49 @@ header {
     .shop-now-bold {
         font-size: 1rem;
     }
+
+
+
+
+    /* join section design */
+    /* .join {
+       background-image: url(assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    width: 100%;
+    max-height: 220px;    
+    padding: 40px 20px;
+    box-sizing: border-box;
+    }
+
+    .join div {
+        margin-top: 20px;
+    }
+
+    .join h1 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+    }
+
+    .join input {
+        background-color: white;
+        border: none;
+        padding: 14.2px;
+        width: 240px;
+
+    }
+
+    .join button {
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 13px 15px;
+
+    } */
+
+
 
 
 
