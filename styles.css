@@ -642,14 +642,18 @@ header {
 
 
 
-    /* join section design */
-    /* .join {
+    join section design
+    .joinus{
+        width:576px;
+        max-width: 100%;
+    }
+     .join {
        background-image: url(assets/news-letter-bg.png);
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size:cover;
     background-position: center;
     width: 100%;
-    max-height: 220px;    
+    height: 300px;   
     padding: 40px 20px;
     box-sizing: border-box;
     }
@@ -678,9 +682,7 @@ header {
         font-weight: 500;
         padding: 13px 15px;
 
-    } */
-
-
+    }
 
 
 
