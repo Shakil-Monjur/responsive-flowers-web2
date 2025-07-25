@@ -202,6 +202,37 @@ header {
 }
 
 
+
+/* flower and plant lover */
+.flower-plants-lover{
+    max-width:1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:40px;
+}
+.lover-banner,.lover-text{
+    max-width:540px;
+}
+.lover-banner img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.lover-text ul li{
+    margin-left: 20px;;
+    margin-top:20px;
+    font-size:1.325rem;
+}
+.lover-text-title{
+    margin-bottom:20px;
+    font-size:3.125rem;
+    font-weight: bold;
+}
+
+
 /* Footer Section Style */
 
 
@@ -276,7 +307,7 @@ header {
     }
 
 
-    .header-description {}
+    
 
     .header-image {
         max-width: 100%;
@@ -352,6 +383,41 @@ header {
     gap:30px 20px;
     margin:50px auto 45px auto;
     
+}
+
+
+/* flower and plant lover responsive design for small device*/
+.flower-plants-lover{
+    max-width:90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap:0px;
+    margin-bottom: 130px;
+}
+.lover-banner,.lover-text{
+    max-width:100%;
+}
+
+.lover-banner{
+        max-width: 100%;
+        margin: auto;
+        margin-bottom: 28px;
+        margin-top: 28px;
+    }
+
+    .lover-banner img {
+        max-width: 100%;
+    }
+
+.lover-text ul li{
+    margin-left: 20px;
+    margin-top:20px;
+    font-size:0.875rem;
+}
+.lover-text-title{
+    font-size:1.5rem;
+    font-weight: bold;
 }
     
 
