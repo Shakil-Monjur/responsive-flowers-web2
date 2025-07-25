@@ -168,7 +168,7 @@ header {
 
 .our-plant-card p {
     text-align: center;
-    
+
 }
 
 .card-text1 {
@@ -193,43 +193,138 @@ header {
     box-sizing: border-box;
 }
 
-.our-plant-cards{
-    display:grid;
-    grid-template-columns: repeat(4,1fr);
-    gap:30px 20px;
-    margin-top:30px;
+.our-plant-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px 20px;
+    margin-top: 30px;
     margin-bottom: 85px;
 }
 
 
 
 /* flower and plant lover */
-.flower-plants-lover{
-    max-width:1140px;
+.flower-plants-lover {
+    max-width: 1140px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap:40px;
+    gap: 40px;
+
 }
-.lover-banner,.lover-text{
-    max-width:540px;
+
+.lover-banner,
+.lover-text {
+    max-width: 540px;
 }
+
 .lover-banner img {
     max-width: 100%;
     height: auto;
     display: block;
 }
 
-.lover-text ul li{
-    margin-left: 20px;;
-    margin-top:20px;
-    font-size:1.325rem;
+.lover-text ul li {
+    margin-left: 20px;
+    ;
+    margin-top: 20px;
+    font-size: 1.325rem;
 }
-.lover-text-title{
-    margin-bottom:20px;
-    font-size:3.125rem;
+
+.lover-text-title {
+    margin-bottom: 20px;
+    font-size: 3.125rem;
     font-weight: bold;
+}
+
+
+.deals {
+    margin-top: 130px;
+    margin-bottom: 120px;
+}
+
+
+
+/* product price off sections */
+.off-section {
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+
+}
+
+.off-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(assets/deal-bloom.png);
+    background-repeat: no-repeat;
+    width: 367px;
+    height: 201px;
+    background-size: contain;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 22px;
+}
+
+.off-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(assets/deal-ana.png);
+    background-repeat: no-repeat;
+    width: 367px;
+    height: 201px;
+    background-size: contain;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.off-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(assets/deal-zabo.png);
+    background-repeat: no-repeat;
+    width: 753px;
+    height: 423px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.off-text {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: white;
+}
+
+.shop-now {
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    border-bottom: 3px solid white;
+}
+
+.off-text-bold {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+
+}
+
+.shop-now-bold {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: white;
+    border-bottom: 4px solid white;
 }
 
 
@@ -307,7 +402,7 @@ header {
     }
 
 
-    
+
 
     .header-image {
         max-width: 100%;
@@ -326,7 +421,7 @@ header {
     .our-plants {
         max-width: 90%;
         margin: auto;
-        margin-top:65px;
+        margin-top: 65px;
     }
 
     .our-plants-title-description {
@@ -348,58 +443,62 @@ header {
 
 
     /* body dection card design */
-.our-plant-card {
-    max-width: 90%;
-    margin:auto;
-}
+    .our-plant-card {
+        max-width: 90%;
+        margin: auto;
+    }
 
-.our-plant-card p {
-    text-align: center;
-    
-}
+    .our-plant-card p {
+        text-align: center;
 
-.card-text1 {
-    
-    font-size: 1rem;
-}
+    }
 
-.card-text2 {
-    font-size: 1rem;
-}
-.our-plant-card button {
-    width: 100%;
-    background-color: #E95A08;
-    font-size: 1rem;
-    font-weight: 600;
-    color: #ffffff;
-    padding: 13px 25px;
-    border: none;
-    margin-top: 30px;
-    box-sizing: border-box;
-}
-.our-plant-cards{
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
-    gap:30px 20px;
-    margin:50px auto 45px auto;
-    
-}
+    .card-text1 {
+
+        font-size: 1rem;
+    }
+
+    .card-text2 {
+        font-size: 1rem;
+    }
+
+    .our-plant-card button {
+        width: 100%;
+        background-color: #E95A08;
+        font-size: 1rem;
+        font-weight: 600;
+        color: #ffffff;
+        padding: 13px 25px;
+        border: none;
+        margin-top: 30px;
+        box-sizing: border-box;
+    }
+
+    .our-plant-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px 20px;
+        margin: 50px auto 45px auto;
+
+    }
 
 
-/* flower and plant lover responsive design for small device*/
-.flower-plants-lover{
-    max-width:90%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    gap:0px;
-    margin-bottom: 130px;
-}
-.lover-banner,.lover-text{
-    max-width:100%;
-}
+    /* flower and plant lover responsive design for small device*/
+    .flower-plants-lover {
+        max-width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        margin-bottom: 130px;
+    }
 
-.lover-banner{
+    .lover-banner,
+    .lover-text {
+        max-width: 100%;
+    }
+
+    .lover-banner {
         max-width: 100%;
         margin: auto;
         margin-bottom: 28px;
@@ -410,16 +509,85 @@ header {
         max-width: 100%;
     }
 
-.lover-text ul li{
-    margin-left: 20px;
-    margin-top:20px;
-    font-size:0.875rem;
+    .lover-text ul li {
+        margin-left: 20px;
+        margin-top: 20px;
+        font-size: 0.875rem;
+    }
+
+    .lover-text-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+
+
+
+.deals {
+    margin-top: 126px;
+    margin-bottom: 51px;
 }
-.lover-text-title{
-    font-size:1.5rem;
-    font-weight: bold;
-}
-    
+    /* product price off sections responsive design */
+    .off-section {
+        max-width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 120px;
+        
+
+    .off {
+        max-width: 100%;
+    }
+
+    .off-1 {
+        background-image: url(assets/deal-bloom.png);
+        background-repeat: no-repeat;
+        width: 518.4px;
+        height: 265px;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 20px;
+    }
+
+    .off-2 {
+        background-image: url(assets/deal-ana.png);
+        background-repeat: no-repeat;
+        width: 518.4px;
+        height: 265px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+    }
+
+    .off-3 {
+        margin-top: 20px;
+        background-image: url(assets/deal-zabo.png);
+        background-repeat: no-repeat;
+        width: 518.4px;
+        height: 265px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+    }
+
+    .off-text {
+        font-size: 1.25rem;
+    }
+
+    .shop-now {
+        font-size: 1rem;
+    }
+
+    .off-text-bold {
+        font-size: 1.25rem;
+    }
+
+    .shop-now-bold {
+        font-size: 1rem;
+    }
+
+
 
 
 }
